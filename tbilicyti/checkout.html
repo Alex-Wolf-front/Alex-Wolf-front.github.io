@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Оформление заказа | ТбилиCity</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/checkout.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_top_line">
+            <button type="button" class="header_reservation">Забронировать стол</button>
+        </div>
+        <div class="header_secondary">
+            <div class="container">
+                <div class="header_secondary_grid">
+                    <a href="/" class="header_logo_mobile">
+                        <img src="images/logo.png" width="100" alt="ТбилиCity Лого">
+                    </a>
+
+                    <nav class="header_navigation">
+                        <ul class="header_navigation_inner">
+                            <li>
+                                <a href="/news.html" class="header_navigation_link" target="_self">Новости и акции</a>
+                            </li>
+                            <li>
+                                <a href="/delivery.html" class="header_navigation_link" target="_self">Доставка и оплата</a>
+                            </li>
+                            <li>
+                                <a href="/about.html" class="header_navigation_link" target="_self">ТбилиCity</a>
+                            </li>
+                            <li>
+                                <a href="/vacancies.html" class="header_navigation_link" target="_self">Вакансии</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <ul class="header_links">
+                        <li class="header_links_delivery">
+                            <a href="/delivery" class="header_links_label">Доставляем с 09:00 до 22:30</a>
+                        </li>
+                        <li class="header_links_hamburger">
+                            <button type="button" class="mobile_open_menu" title="Открыть меню">
+                                <svg viewBox="0 0 24 24" width="24" height="24">
+                                    <use href="images/icons.svg#burger-icon" />
+                                </svg>
+                            </button>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="checkout_grid">
+                <div class="checkout_content">
+                    <form action="">
+                        <h1 class="checkout_content_title">Оформление заказа</h1>
+                        <div class="checkout_block">
+                            <div class="checkout_title">Контактные данные</div>
+                            <div class="checkout_form_row form_row_second">
+                                <input type="text" name="user_name" placeholder="Имя">
+                            </div>
+                            <div class="checkout_form_row form_row_second">
+                                <input type="tel" name="user_phone" placeholder="Телефон">
+                            </div>
+                            <div class="checkout_form_row form_row_second">
+                                <input type="email" name="user_email" placeholder="E-mail">
+                            </div>
+                        </div>
+                        <div class="checkout_block">
+                            <div class="checkout_title">Адрес доставки</div>
+                            <div class="checkout_form_row form_row_second">
+                                <input type="text" name="user_street" placeholder="Улица">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_house" placeholder="Дом">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_frame" placeholder="Корпус">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_apartment" placeholder="Квартира">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_entrance" placeholder="Подъезд">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_floor" placeholder="Этаж">
+                            </div>
+                            <div class="checkout_form_row form_row_four">
+                                <input type="text" name="user_intercom" placeholder="Домофон">
+                            </div>
+                        </div>
+                        <div class="checkout_block">
+                            <div class="checkout_block form_row_second">
+                                <div class="checkout_title">Время доставки</div>
+                                <div class="checkout_form_row form_row_checkbox">
+                                    <input type="radio" id="fast" name="time_shipping" value="fast" checked>
+                                    <span class="custom_checkbox"></span>
+                                    <label for="fast">Как можно быстрее</label>
+                                </div>
+                                <div class="checkout_form_row form_row_checkbox">
+                                    <input type="radio" id="too_time" name="time_shipping" value="too_time" class="time_shipping_input">
+                                    <span class="custom_checkbox"></span>
+                                    <label for="too_time">К определенному времени</label>
+                                </div>
+                                <div class="checkout_form_row form_row_second form_row_time_shipping none">
+                                    <input type="text" name="time_shipping_date" placeholder="Дата">
+                                </div>
+                                <div class="checkout_form_row form_row_second form_row_time_shipping none">
+                                    <input type="text" name="time_shipping_time" placeholder="Время">
+                                </div>
+                            </div>
+                            <div class="checkout_block form_row_second checkout_block_column">
+                                <div class="checkout_title">Количество персон</div>
+                                <div class="form_row_count">
+                                    <button type="button" class="form_person_select minus" data-type="minus">-</button>
+                                    <input type="number" class="form_person" name="person_count"
+                                        placeholder="Кол-во персон" min="1" value="1" readonly="readonly">
+                                    <button type="button" class="form_person_select plus" data-type="plus">+</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkout_block">
+                            <div class="checkout_title">Оплата</div>
+                            <div class="checkout_form_row form_row_checkbox">
+                                <input type="radio" id="payment_method_cash" name="payment_method"
+                                    value="payment_method_cash" checked>
+                                <span class="custom_checkbox"></span>
+                                <label for="payment_method_cash">Наличными</label>
+                            </div>
+                            <div class="checkout_form_row form_row_checkbox">
+                                <input type="radio" id="payment_method_card" name="payment_method"
+                                    value="payment_method_card">
+                                <span class="custom_checkbox"></span>
+                                <label for="payment_method_card">Картой курьеру</label>
+                            </div>
+                        </div>
+                        <div class="checkout_block">
+                            <div class="checkout_title">Комментарий к заказу</div>
+                            <div class="checkout_form_row form_textarea">
+                                <textarea name="order_comments" id="order_comments" cols="50" rows="6"
+                                    placeholder="Комментарий"></textarea>
+                            </div>
+                        </div>
+                        <div class="checkout_order">
+                            <p>
+                                Оформляя заказ, вы соглашаетесь с <a href="privacy.html">политикой
+                                    конфиденциальности</a>
+                                и обработки персональных данных, а также принимаете
+                                <a href="policy.html">пользовательское соглашение</a>
+                            </p>
+                            <button type="submit" class="checkout_order_button">Оформить заказ</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="checkout_cart">
+                    <div class="checkout_cart_content">
+                        <h2 class="checkout_cart_title">Ваш заказ</h2>
+                        <div class="checkout_cart_order"></div>
+                        <div class="checkout_cart_total">
+                            <div class="checkout_cart_total_item">
+                                <span class="checkout_cart_delivery">Доставка:</span>
+                                <span class="checkout_cart_delivery delivery_cost"></span>
+                            </div>
+                            <div class="checkout_cart_total_item">
+                                <span class="checkout_cart_text">Итого:</span>
+                                <span class="checkout_cart_text checkout_cart_total_price">300&#8201;&#8381;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer_main">
+            <div class="container">
+                <div class="footer_grid">
+                    <div class="footer_grid_item footer_logo">
+                        <a href="/" target="_self">
+                            <img src="images/logo.png" alt="ТбилиCity Лого">
+                        </a>
+                    </div>
+                    <nav class="footer_grid_item footer_navigation">
+                        <h2 class="footer_item_title">Меню</h2>
+                        <ul class="footer_navigation_inner">
+                            <li>
+                                <a href="/news.html" class="footer_navigation_link" target="_self">Новости и акции</a>
+                            </li>
+                            <li>
+                                <a href="/delivery.html" class="footer_navigation_link" target="_self">Доставка и оплата</a>
+                            </li>
+                            <li>
+                                <a href="/about.html" class="footer_navigation_link" target="_self">ТбилиCity</a>
+                            </li>
+                            <li>
+                                <a href="/vacancies.html" class="footer_navigation_link" target="_self">Вакансии</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="footer_grid_item footer_address">
+                        <h2 class="footer_item_title">Адрес</h2>
+                        <p>г. Севастополь
+                            <br>ул. Адмирала Фадеева, д 48
+                        </p>
+                        <div class="footer_item_orders">
+                            <h2 class="footer_item_title">Прием заказов</h2>
+                            <p>Пн - Вс: 10:00-22:00</p>
+                        </div>
+                    </div>
+                    <div class="footer_grid_item footer_contacts">
+                        <h2 class="footer_item_title">Контакты</h2>
+                        <a href="tel:+" class="footer_phone_link">+7 (978) 777-77-77</a>
+                        <a href="mailto:" class="footer_mail_link">email@gmail.com</a>
+                        <ul class="footer_social_list">
+                            <li>
+                                <a href="#" title="Открыть группу в VK" class="footer_social_item">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#ffffff">
+                                        <use href="images/icons.svg#vk-icon" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Открыть группу в Instagram" class="footer_social_item">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#ffffff">
+                                        <use href="images/icons.svg#instagram-icon" />
+                                    </svg>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Открыть группу в Telegram" class="footer_social_item">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="#ffffff">
+                                        <use href="images/icons.svg#telegram-icon" />
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_grid_item footer_buttons">
+                        <button type="button" class="footer_buttons_contact_use">Написать нам</button>
+                        <button type="button" class="footer_buttons_feedback">Оставить отзыв</button>
+                        <button type="button" class="footer_buttons_reservation">Забронировать стол</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="footer_bottom_list">
+                    ТбилиCity &copy; 2023 Все права защищены.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/set_to_cookies.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/render/checkout.js"></script>
+</body>
+
+</html>

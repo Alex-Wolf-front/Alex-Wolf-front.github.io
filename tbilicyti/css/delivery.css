@@ -1,0 +1,4 @@
+.delivery_block:not(:last-child){margin-bottom: 50px;}
+.delivery_block_title{color:#1a202c;font-size:26px;}
+.delivery_block p{font-size: 16px;}
+.delivery_block_subtitle{font-weight: 600;margin-top: 10px;}

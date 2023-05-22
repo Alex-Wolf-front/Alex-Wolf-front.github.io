@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+	<title>ТбилиCity - ресторан грузинской кухни</title>
+	<!-- Favicons -->
+	<link rel="manifest" href="favicon/manifest.webmanifest">
+	<link rel="icon" href="/favicon.ico" sizes="any">
+	<link rel="icon" href="favicon/icon.svg" type="image/svg+xml">
+	<link rel="apple-touch-icon" href="favicon/apple-touch-icon.png">
+	<!-- Styles -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="css/general.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/swiper.css">
+</head>
+
+<body>
+	<header>
+		<div class="header_secondary">
+			<div class="container">
+				<div class="header_secondary_grid">
+					<a href="/" class="header_logo">
+						<img src="images/logo-black.png" width="100" alt="ТбилиCity Лого">
+					</a>
+
+					<nav class="header_navigation">
+						<ul class="header_navigation_inner">
+							<li>
+								<a href="/news.html" class="header_navigation_link" target="_self">Новости и акции</a>
+							</li>
+							<li>
+								<a href="/delivery.html" class="header_navigation_link" target="_self">Доставка и оплата</a>
+							</li>
+							<li>
+								<a href="/about.html" class="header_navigation_link" target="_self">ТбилиCity</a>
+							</li>
+							<li>
+								<a href="/vacancies.html" class="header_navigation_link" target="_self">Вакансии</a>
+							</li>
+							<li>
+								<button type="button" class="header_navigation_link header_reservation">
+									<span>Забронировать стол</span>
+									<svg viewBox="0 0 12 12" width="12" height="12" fill="#000000">
+										<use href="images/icons.svg#angles-right" />
+									</svg>
+								</button>
+							</li>
+						</ul>
+					</nav>
+					<ul class="header_links">
+						<li class="header_links_delivery">
+							<a href="/delivery" class="header_links_label">Доставляем с 09:00 до 22:30</a>
+						</li>
+						<li class="header_links_hamburger">
+							<button type="button" class="mobile_open_menu" title="Открыть меню">
+								<svg viewBox="0 0 24 24" width="24" height="24">
+									<use href="images/icons.svg#burger-icon" />
+								</svg>
+							</button>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="header_sticky">
+		<div class="header_sticky_content">
+			<div class="container">
+				<div class="header_sticky_grid">
+					<div class="header_sticky_navigation">
+						<div class="header_secondary_top">
+							<a href="/" class="header_sticky_mobile_logo sticky_link" target="_self">
+								<img src="images/logo-black.png" width="100" alt="ТбилиCity Лого">
+							</a>
+							<button type="button" title="Закрыть меню" class="mobile_close_menu">
+								<svg viewBox="0 0 24 24" width="24" height="24">
+									<use href="images/icons.svg#close-icon" />
+								</svg>
+							</button>
+						</div>
+						<div class="header_sticky_navigarion_wrapper">
+							<div class="header_sticky_navigarion_inner" id="header_navigation">
+							</div>
+						</div>
+						<div class="header_sticky_mobile_navigation">
+							<ul class="header_sticky_mobile_inner">
+								<li>
+									<a href="/news.html" class="header_sticky_mobile_link sticky_link" target="_self">Новости
+										и акции</a>
+								</li>
+								<li>
+									<a href="/delivery" class="header_sticky_mobile_link sticky_link"
+										target="_self">Доставка и
+										оплата</a>
+								</li>
+								<li>
+									<a href="/about" class="header_sticky_mobile_link sticky_link"
+										target="_self">ТбилиCity</a>
+								</li>
+								<li>
+									<a href="/vacancies.html" class="header_sticky_mobile_link sticky_link"
+										target="_self">Вакансии</a>
+								</li>
+							</ul>
+							<div class="header_sticky_mobile_social">
+								<ul class="header_sticky_mobile_social_list">
+									<li>
+										<a href="#" title="Открыть группу в VK"
+											class="header_sticky_mobile_social_item sticky_link">
+											<svg viewBox="0 0 24 24" width="24" height="24" fill="#212121">
+												<use href="images/icons.svg#vk-icon" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Открыть группу в Instagram"
+											class="header_sticky_mobile_social_item sticky_link">
+											<svg viewBox="0 0 24 24" width="24" height="24" fill="#212121">
+												<use href="images/icons.svg#instagram-icon" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Открыть группу в Telegram"
+											class="header_sticky_mobile_social_item sticky_link">
+											<svg viewBox="0 0 24 24" width="24" height="24" fill="#212121">
+												<use href="images/icons.svg#telegram-icon" />
+											</svg>
+										</a>
+									</li>
+									<li>
+										<a href="#" title="Заказать в Крым.Еда"
+											class="header_sticky_mobile_social_item sticky_link">
+											<svg viewBox="0 0 42 38" width="28" height="24" fill="#212121">
+												<use href="images/icons.svg#crimea-food" />
+											</svg>
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<main>
+		<section id="slider">
+			<div class="main_slider">
+				<div class="swiper">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="slider_item">
+								<div class="slider_text">
+									<div class="slider_text_title">
+										<span class="slider_text_warning">Выбери свой</span>
+										подарок на первый заказ
+									</div>
+									<div class="slider_text_descr">
+										Дарим один из трёх фирменных блюд на первый заказ.
+										Для получения подарка - обратитесь к
+										оператору при оформлении заказа
+									</div>
+								</div>
+								<div class="slider_image">
+									<img src="images/slider_img1.jpg" alt="">
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="slider_item">
+								<div class="slider_text">
+									<div class="slider_text_title">
+										<span class="slider_text_warning">Скидка 10%</span>
+										<br>на самовывоз
+									</div>
+									<div class="slider_text_descr">
+										Мы уважаем самостоятельность!
+										<br>Оформите самовывоз заказа по адресу
+										г. Севастополь, ул. Адмирала Фадеева, д 48
+										<br>и получите скидку 10%.
+									</div>
+								</div>
+								<div class="slider_image">
+									<img src="images/slider_img2.jpg" alt="">
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="slider_item">
+								<div class="slider_text">
+									<div class="slider_text_title">Новое
+										<br><span class="slider_text_warning">летнее</span>
+										меню
+									</div>
+									<div class="slider_text_descr">
+										Мы обновили наше меню. Теперь еще больше вкусных блюд по доступным ценам
+									</div>
+								</div>
+								<div class="slider_image">
+									<img src="images/slider_img4.jpg" alt="">
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-slide">
+							<div class="slider_item">
+								<div class="slider_text">
+									<div class="slider_text_title">
+										<span class="slider_text_warning">Скидка 15%</span>
+										на День Рождения
+									</div>
+									<div class="slider_text_descr">
+										На носу День Рождения?<br>
+										Дарим скидку 15% не только в День вашего <br>
+										Рождения, но и три дня до и после торжества.
+									</div>
+								</div>
+								<div class="slider_image">
+									<img src="images/slider_img5.jpg" alt="">
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+				</div>
+
+			</div>
+		</section>
+		<section id="product_catalog">
+			<div class="container">
+				<div class="main_grid">
+					<div class="main_conent" id="main-container">
+					</div>
+					<div class="main_sidebar">
+						<div class="crimea_food_block">
+							<a href="#">
+								<img src="images/crimea_food.jpg" class="crimea_food_image" alt="">
+							</a>
+						</div>
+						
+						<div class="cart_sidebar">
+							<div class="cart_top">
+								<button type="button" title="Закрыть корзину" class="cart_mobile_close">
+									<svg viewBox="0 0 13 13" width="13" height="13" fill="#1a202c">
+										<use href="images/icons.svg#angles-right" />
+									</svg>
+								</button>
+
+								<span class="cart_title">Корзина
+									<svg viewBox="0 0 20 20" width="20" height="20" fill="#1a202c">
+										<use href="images/icons.svg#basket-shopp" />
+									</svg>
+								</span>
+								<span class="cart_clean none">Очистить</span>
+							</div>
+
+
+							<div class="cart_wrapper">
+								<p class="cart_empty">
+									Корзина пуста
+								</p>
+							</div>
+
+							<div class="cart_footer none">
+								<div class="cart_footer_delivery">
+									<div class="cart_total">
+										<span class="cart_delivery_title">Доставка:</span>
+										<span class="cart_delivery_cost">250&#8201;&#8381;</span>
+									</div>
+									<p class="cart_delivery_text">Бесплатно при заказе от 2000 &#8381;</p>
+								</div>
+								<div class="cart_footer_order">
+									<div class="cart_total">
+										<span class="cart_footer_text">Итого:</span>
+										<span class="cart_footer_text total_price"></span>
+									</div>
+									<a href="checkout.html" class="cart_button">
+										Перейти к оформлению
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="cart_mobile_icon">
+						<div class="cart_mobile_content">
+							<button type="button" class="cart_mobile_button">
+								<svg viewBox="0 0 30 30" width="30" height="30" fill="#ffffff">
+									<use href="images/icons.svg#basket-shopp" />
+								</svg>
+							</button>
+							<span class="cart_mobile_count"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<div class="footer_main">
+			<div class="container">
+				<div class="footer_grid">
+					<div class="footer_grid_item footer_logo">
+						<a href="/" target="_self">
+							<img src="images/logo-black.png" alt="ТбилиCity Лого">
+						</a>
+					</div>
+					<nav class="footer_grid_item footer_navigation">
+						<h2 class="footer_item_title">Меню</h2>
+						<ul class="footer_navigation_inner">
+							<li>
+								<a href="/news.html" class="footer_navigation_link" target="_self">Новости и акции</a>
+							</li>
+							<li>
+								<a href="/delivery" class="footer_navigation_link" target="_self">Доставка и оплата</a>
+							</li>
+							<li>
+								<a href="/about" class="footer_navigation_link" target="_self">ТбилиCity</a>
+							</li>
+							<li>
+								<a href="/vacancies.html" class="footer_navigation_link" target="_self">Вакансии</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="footer_grid_item footer_address">
+						<h2 class="footer_item_title">Адрес</h2>
+						<p>г. Севастополь
+							<br>ул. Адмирала Фадеева, д 48
+						</p>
+						<div class="footer_item_orders">
+							<h2 class="footer_item_title">Прием заказов</h2>
+							<p>Пн - Вс: 10:00-22:00</p>
+						</div>
+					</div>
+					<div class="footer_grid_item footer_contacts">
+						<h2 class="footer_item_title">Контакты</h2>
+						<a href="tel:+79789491740" class="footer_phone_link">+7 (978) 949-17-40</a>
+						<a href="mailto:" class="footer_mail_link">email@gmail.com</a>
+						<ul class="footer_social_list">
+							<li>
+								<a href="#" title="Открыть группу в VK" class="footer_social_item">
+									<svg viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+										<use href="images/icons.svg#vk-icon" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="Открыть группу в Instagram" class="footer_social_item">
+									<svg viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+										<use href="images/icons.svg#instagram-icon" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="Открыть группу в Telegram" class="footer_social_item">
+									<svg viewBox="0 0 24 24" width="24" height="24" fill="#000000">
+										<use href="images/icons.svg#telegram-icon" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#" title="Заказать в Крым.Еда" class="footer_social_item">
+									<svg viewBox="0 0 42 38" width="28" height="24" fill="#000000">
+										<use href="images/icons.svg#crimea-food" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer_grid_item footer_buttons">
+						<button type="button" class="footer_buttons_contact_use">Написать нам</button>
+						<button type="button" class="footer_buttons_feedback">Оставить отзыв</button>
+						<button type="button" class="footer_buttons_reservation">Забронировать стол</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer_bottom">
+			<div class="container">
+				<div class="footer_bottom_list">
+					ТбилиCity &copy; 2023 Все права защищены.
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script>
+		const swiper = new Swiper('.swiper', {
+			slidesPerView: 1,
+			centeredSlides: true,
+			loop: true,
+			spaceBetween: 20,
+			autoplay: {
+				delay: 4000,
+				disableOnInteraction: true,
+			},
+			pagination: {
+				el: ".swiper-pagination",
+				clickable: true,
+			},
+			breakpoints: {
+				800: {
+					slidesPerView: 2,
+					spaceBetween: 30,
+				}
+			}
+		});
+	</script>
+
+	<!-- Подключаем скрипты -->
+	<script src="./js/main.js"></script>
+	<script src="./js/set_to_cookies.js"></script>
+	<script src="./js/calcCartPrice.js"></script>
+	<script src="./js/toggleCartStatus.js"></script>
+	<script src="./js/cart_counter.js"></script>
+	<script src="./js/render/cart.js"></script>
+	<script src="./js/render/sections.js"></script>
+
+</body>
+
+</html>

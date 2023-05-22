@@ -1,0 +1,1020 @@
+[
+  {
+    "id": 1,
+    "category": "Хинкали",
+    "items": [
+      {
+        "id": 1,
+        "title": "Дюжина хинкали ассорти",
+        "description": "Калакури - 3шт;<br>С бараниной - 3шт;<br>С сыром - 3шт;<br>Черные с лососем и луком - 3шт;",
+        "weight": 0,
+        "price": 780,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Мтилури - без зелени",
+        "description": "Фарш из свинины и говядины с грузинскими специями",
+        "weight": 0,
+        "price": 45,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Калакури - с зеленью",
+        "description": "Фарш из свинины и говядины с зеленью",
+        "weight": 0,
+        "price": 45,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Хинкали с говядиной",
+        "description": "",
+        "weight": 0,
+        "price": 60,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Хинкали с бараниной и зеленью",
+        "description": "",
+        "weight": 0,
+        "price": 70,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 6,
+        "title": "Хинкали с сыром и сливками",
+        "description": "",
+        "weight": 0,
+        "price": 60,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Хинкали с грибами, сыром и сливками",
+        "description": "",
+        "weight": 0,
+        "price": 60,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 8,
+        "title": "Хинкали с грибами и сливками",
+        "description": "",
+        "weight": 0,
+        "price": 60,
+        "img_src": "khinkali/defualt.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Хинкали черные с лососем и луком",
+        "description": "",
+        "weight": 0,
+        "price": 105,
+        "img_src": "khinkali/defualt.jpg"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Хачапури",
+    "items": [
+      {
+        "id": 10,
+        "title": "По-аджарски",
+        "description": "Лодочка из сдобного теста с начинкой из двух фермерских сыров, с растопленным сливочным маслом и яичным куриным желтком",
+        "weight": 0,
+        "price": 330,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 11,
+        "title": "По-аджарски мини",
+        "description": "Маленькая лодочка из сдобного теста с начинкой из двух фермерских сыров, с растопленным сливочным маслом и яичным куриным желтком",
+        "weight": 0,
+        "price": 205,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Тбилисити",
+        "description": "Воздушный фирменный хачапури из сдобного теста с тремя видами сыра",
+        "weight": 0,
+        "price": 380,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Имерули",
+        "description": "Круглый хачапури из сдобного теста с начинкой из двух видов сыра",
+        "weight": 0,
+        "price": 320,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Мегрули",
+        "description": "Круглый закрытый хачапури из сдобного теста с двойной сырной начинкой",
+        "weight": 0,
+        "price": 350,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 15,
+        "title": "От тетушки софико",
+        "description": "Домашний хачапури с начинкой из сочной курицы и микса сыров",
+        "weight": 0,
+        "price": 350,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 16,
+        "title": "Пеновани пури",
+        "description": "Закрытый хрустящий хачапури из слоеного теста со шпинатом и сыром",
+        "weight": 0,
+        "price": 350,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Хачапури на шампуре",
+        "description": "Воздушный хрустящий хачапури из слоеного теста с сыром сулугуни, подается на шампуре",
+        "weight": 0,
+        "price": 340,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Кубдари",
+        "description": "Закрытый хачапури с мясом и грузинскими специями по рецепту из Сванетии",
+        "weight": 0,
+        "price": 380,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 19,
+        "title": "Пицца по-грузински",
+        "description": "С колбасой, сыром и фирменным красным соусом",
+        "weight": 0,
+        "price": 350,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Пицца цезаридзе",
+        "description": "С нежными кусочками филе цыпленка, сыром и фирменным белым соусом",
+        "weight": 0,
+        "price": 420,
+        "img_src": "khachapuri/default.jpg"
+      },
+      {
+        "id": 21,
+        "title": "Бургер по-тбилисски",
+        "description": "С сочной мясной котлетой и сырным соусом",
+        "weight": 300,
+        "price": 490,
+        "img_src": "khachapuri/default.jpg"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "Салаты",
+    "items": [
+      {
+        "id": 22,
+        "title": "Тбилисити",
+        "description": "Микс салата, сыр Дор блю, Бри, Фета, с ореховым соусом, филе апельсина и сладким виноградом",
+        "weight": 230,
+        "price": 560,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 23,
+        "title": "Батуми",
+        "description": "Теплый салат из морепродуктов с устричным соусом и обжаренными овощами",
+        "weight": 220,
+        "price": 530,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 24,
+        "title": "Грузинский",
+        "description": "Свежие овощи с пряной ореховой заправкой",
+        "weight": 250,
+        "price": 290,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 25,
+        "title": "Хорциани",
+        "description": "Микс салата под фирменным сливочным соусом, с кусочками нежной говядины, белой фасолью, картофелем-фри, жаренным баклажаном и маринованным огурцом",
+        "weight": 220,
+        "price": 470,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 26,
+        "title": "Ламара",
+        "description": "Морской коктейль из мидий, креветок, кальмаров томленных в сливках с помидорами и миксом салата",
+        "weight": 220,
+        "price": 590,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 27,
+        "title": "Тифлисский",
+        "description": "Легкий салат из розовых помидоров с брынзой и кинзой",
+        "weight": 270,
+        "price": 340,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 28,
+        "title": "Цезаридце с цыпленком",
+        "description": "Хрустящий микс салата, нежное филе цыпленка в беконе, свежий помидор, сыр Пармезан, авторский соус, подается с пшеничными чипсами",
+        "weight": 270,
+        "price": 450,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 29,
+        "title": "Цезаридце с семгой",
+        "description": "Микс салата, свежие помидоры, сыр Пармезан и фирменный соус в сочетании с семгой слабой соли, подается с пшеничными чипсами",
+        "weight": 240,
+        "price": 550,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 30,
+        "title": "Цезаридце с креветкой",
+        "description": "Жаренные креветки, лист салата, свежий помидор, сыр Пармезан, авторский соус, подается с пшеничными чипсами",
+        "weight": 240,
+        "price": 530,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 31,
+        "title": "Греческий",
+        "description": "Свежие помидоры, огурцы, сладкий перец, сыр Фета, маслины, ароматное масло",
+        "weight": 270,
+        "price": 340,
+        "img_src": "salad/default.jpg"
+      },
+      {
+        "id": 32,
+        "title": "Хрустящий баклажан",
+        "description": "Кусочки хрустящего баклажана, свежие помидоры в кисло-сладком соусе с кинзой и кунжутом",
+        "weight": 230,
+        "price": 330,
+        "img_src": "salad/default.jpg"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "Горячие закуски",
+    "items": [
+      {
+        "id": 33,
+        "title": "Сулугуни жаренный",
+        "description": "С помидорами в кеци",
+        "weight": 150,
+        "price": 330,
+        "img_src": "hot_appetizers/default.jpg"
+      },
+      {
+        "id": 34,
+        "title": "Бакладжано",
+        "description": "Баклажан-гриль запеченный с сыром в красном соусе",
+        "weight": 230,
+        "price": 380,
+        "img_src": "hot_appetizers/default.jpg"
+      },
+      {
+        "id": 35,
+        "title": "Шампиньон с сыром",
+        "description": "Шампиньоны запеченные с сыром сулугуни в кеци",
+        "weight": 200,
+        "price": 440,
+        "img_src": "hot_appetizers/default.jpg"
+      },
+      {
+        "id": 36,
+        "title": "Пивная тарелка",
+        "description": "Чесночные ржаные гренки, колбаски, копченый сулугуни, луковые кольца",
+        "weight": 350,
+        "price": 420,
+        "img_src": "hot_appetizers/default.jpg"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "Супы",
+    "items": [
+      {
+        "id": 37,
+        "title": "Чихиртма",
+        "description": "Традиционный ароматный куриный суп с яйцом",
+        "weight": 250,
+        "price": 230,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 38,
+        "title": "Хашлама",
+        "description": "Наваристый суп из баранины с овощами и зеленью",
+        "weight": 250,
+        "price": 360,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 39,
+        "title": "Харчо",
+        "description": "Густой острый грузинский суп с говядиной, зеленью, рисом и душистыми специями",
+        "weight": 250,
+        "price": 280,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 40,
+        "title": "Харчо по-мегрельски",
+        "description": "Довольно густой суп с томленной говядиной в ореховом соусе, напоминающий второе блюдо с ярким, насыщенным вкусом",
+        "weight": 250,
+        "price": 340,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 41,
+        "title": "Суп куриный с лапшой",
+        "description": "Для любителей легких супов по-домашнему рецепту",
+        "weight": 250,
+        "price": 200,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 42,
+        "title": "Какавия с лососем",
+        "description": "Сливочный рыбный суп",
+        "weight": 300,
+        "price": 420,
+        "img_src": "soups/default.jpg"
+      },
+      {
+        "id": 43,
+        "title": "Окрошка",
+        "description": "Классический рецепт с заправкой по-грузински",
+        "weight": 300,
+        "price": 250,
+        "img_src": "soups/default.jpg"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "Мясо на мангале",
+    "items": [
+      {
+        "id": 44,
+        "title": "Шашлык из свинины",
+        "description": "С фирменным соусом",
+        "weight": 100,
+        "price": 280,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 45,
+        "title": "Шашлык из говядины",
+        "description": "С фирменным соусом",
+        "weight": 100,
+        "price": 450,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 46,
+        "title": "Шашлык из баранины",
+        "description": "С фирменным соусом",
+        "weight": 100,
+        "price": 390,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 47,
+        "title": "Шашлык из курицы",
+        "description": "С белым соусом",
+        "weight": 100,
+        "price": 240,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 48,
+        "title": "Каре молодого барашка",
+        "description": "С фирменным соусом",
+        "weight": 100,
+        "price": 420,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 49,
+        "title": "Стейк из свинины",
+        "description": "С сальсой из свежих овощей",
+        "weight": 100,
+        "price": 310,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 50,
+        "title": "Стейк из курицы",
+        "description": "С соусом мацони",
+        "weight": 100,
+        "price": 260,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 51,
+        "title": "Люля-кебаб из баранины",
+        "description": "",
+        "weight": 100,
+        "price": 350,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 52,
+        "title": "Люля-кебаб из говядины",
+        "description": "",
+        "weight": 100,
+        "price": 350,
+        "img_src": "grill_meat/default.jpg"
+      },
+      {
+        "id": 53,
+        "title": "Люля-кебаб из курицы с сыром",
+        "description": "",
+        "weight": 100,
+        "price": 240,
+        "img_src": "grill_meat/default.jpg"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "category": "Рыба на мангале",
+    "items": [
+      {
+        "id": 54,
+        "title": "Стейк из лосося с соусом тар-тар",
+        "description": "",
+        "weight": 100,
+        "price": 680,
+        "img_src": "grill_salmon.jpg"
+      },
+      {
+        "id": 55,
+        "title": "Скумбрия",
+        "description": "С лепестками маринованного имбиря",
+        "weight": 100,
+        "price": 220,
+        "img_src": "grill_mackerel.jpg"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "category": "Овощи на мангале",
+    "items": [
+      {
+        "id": 56,
+        "title": "Шампиньоны на шампуре",
+        "description": "",
+        "weight": 100,
+        "price": 220,
+        "img_src": "grill_champignon.jpg"
+      },
+      {
+        "id": 57,
+        "title": "Картофель на мангале",
+        "description": "С зеленью и чесночным соусом",
+        "weight": 100,
+        "price": 120,
+        "img_src": "grill_potato.jpg"
+      },
+      {
+        "id": 58,
+        "title": "Овощи-гриль",
+        "description": "С соусом песто",
+        "weight": 430,
+        "price": 440,
+        "img_src": "grill_vegetables.jpg"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "category": "Завтраки",
+    "items": [
+      {
+        "id": 59,
+        "title": "Каша овсяная на молоке с сезонными фруктами",
+        "description": "",
+        "weight": 200,
+        "price": 240,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 60,
+        "title": "Сырники с ягодным соусом",
+        "description": "",
+        "weight": 180,
+        "price": 270,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 61,
+        "title": "Чижи бижи из ияц с томатами в собственно мсоку",
+        "description": "",
+        "weight": 220,
+        "price": 220,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 62,
+        "title": "Грузинский завтрак",
+        "description": "Яичница, колбаски копченные, картофель фри, кетчуп, шоти",
+        "weight": 280,
+        "price": 370,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 63,
+        "title": "Завтрак с лососем и яйцом пашот",
+        "description": "",
+        "weight": 200,
+        "price": 400,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 64,
+        "title": "Омлет с колбасками и сыром",
+        "description": "",
+        "weight": 200,
+        "price": 300,
+        "img_src": "breakfast.jpg"
+      },
+      {
+        "id": 65,
+        "title": "Морковная вафля с сырным кремом и лососем",
+        "description": "",
+        "weight": 220,
+        "price": 420,
+        "img_src": "breakfast.jpg"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "category": "Холодные закуски",
+    "items": [
+      {
+        "id": 66,
+        "title": "Пхали",
+        "description": "Легкая закуска из свеклы и шпината с грецким орехом и кавказскими специями",
+        "weight": 150,
+        "price": 290,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 67,
+        "title": "Помидор по-грузински",
+        "description": "Закуска из салатных томатов с острым сыром",
+        "weight": 150,
+        "price": 290,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 68,
+        "title": "Бадриджани",
+        "description": "Рулетики из баклажанов с ореховым соусом",
+        "weight": 150,
+        "price": 340,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 69,
+        "title": "Форшмак из азовской сельди",
+        "description": "",
+        "weight": 150,
+        "price": 240,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 70,
+        "title": "Тэвзиани из сельди",
+        "description": "Ломтики слабосоленой сельди с ялтинском луком и дольками обжаренного картофеля",
+        "weight": 270,
+        "price": 330,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 71,
+        "title": "Сырное плато",
+        "description": "Ассорти благородных сыров с ягодным соусом",
+        "weight": 240,
+        "price": 910,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 72,
+        "title": "Мясное плато",
+        "description": "Ассорти мясных деликатесов собственного приготовления",
+        "weight": 350,
+        "price": 580,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 73,
+        "title": "Овощная горка с сыром и зеленью",
+        "description": "Огурцы, помидоры, болгарский перец, лук, зелень, два вида грузинских сыров",
+        "weight": 400,
+        "price": 420,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 74,
+        "title": "Тарелка разносолов с зеленью",
+        "description": "",
+        "weight": 350,
+        "price": 420,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 75,
+        "title": "Оливки / маслины",
+        "description": "Крупные с косточкой из Греции",
+        "weight": 150,
+        "price": 240,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "category": "Вторые блюда",
+    "items": [
+      {
+        "id": 76,
+        "title": "Оджахури с бараниной",
+        "description": "Жаркое из картофеля, овощей и мяса, с добавлением ароматной кинзы",
+        "weight": 300,
+        "price": 540,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 77,
+        "title": "Оджахури со свининой",
+        "description": "Жаркое из картофеля, овощей и мяса, с добавлением ароматной кинзы",
+        "weight": 300,
+        "price": 420,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 78,
+        "title": "Оджахури с говядиной",
+        "description": "Жаркое из картофеля, овощей и мяса, с добавлением ароматной кинзы",
+        "weight": 300,
+        "price": 540,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 79,
+        "title": "Аджапсандал",
+        "description": "Национальное грузинское блюдо из тушенных овощей с ароматной зеленью",
+        "weight": 250,
+        "price": 330,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 80,
+        "title": "Сациви",
+        "description": "Нежные кусочки курицы под пряным ореховым соусом, традиционно подается в охлажденном виде",
+        "weight": 250,
+        "price": 450,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 81,
+        "title": "Лобио",
+        "description": "Фасоль томленая в кеци с ароматными специями",
+        "weight": 250,
+        "price": 340,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 82,
+        "title": "Долма",
+        "description": "Традиционное грузинское блюдо из малосольных виноградных листьев с мясной начинкой, подается с соусом мациони",
+        "weight": 230,
+        "price": 340,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 83,
+        "title": "Чахозбили",
+        "description": "Куски рубленой курицы, тушенной в соусе из спелых томатов, с овощами и грузинскими специями",
+        "weight": 250,
+        "price": 420,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 84,
+        "title": "Цыпленок тапака",
+        "description": "Обжаренный до хрустящей корочки целый цыпленок, подается на сковороде, сверху посыпается зернами спелого гранатами",
+        "weight": 420,
+        "price": 540,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 85,
+        "title": "Чашушули",
+        "description": "Сочные кусочки говядины тушенные с овощами, зеленью и ароматными специями",
+        "weight": 250,
+        "price": 430,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 86,
+        "title": "Метевзе",
+        "description": "Два вида рыбы с зеленой фасолью, болгарским перцем, свежим помидором на сковороде",
+        "weight": 250,
+        "price": 430,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 87,
+        "title": "Креветки по-тбилисски",
+        "description": "Креветки в кисло-сладком соусе с лепестками имбиря",
+        "weight": 180,
+        "price": 700,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 88,
+        "title": "Пасташвили с морепродуктами",
+        "description": "Черная паста, микс морепродукта в сливках",
+        "weight": 270,
+        "price": 440,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 89,
+        "title": "Пасташвили с беконом",
+        "description": "Классический рецепт пасты карбонара",
+        "weight": 270,
+        "price": 340,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 90,
+        "title": "Самегрелло",
+        "description": "Запеченный куриный рулет с сыром",
+        "weight": 220,
+        "price": 320,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "category": "Гарниры",
+    "items": [
+      {
+        "id": 91,
+        "title": "Картофель жареный с луком и зеленью",
+        "description": "",
+        "weight": 250,
+        "price": 200,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 92,
+        "title": "Картофель фри",
+        "description": "",
+        "weight": 100,
+        "price": 180,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 93,
+        "title": "Шампиньоны на шампуре",
+        "description": "",
+        "weight": 100,
+        "price": 220,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 94,
+        "title": "Картофель на мангале",
+        "description": "С зеленью и чесночным соусом",
+        "weight": 100,
+        "price": 120,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 95,
+        "title": "Овощи-гриль",
+        "description": "С зеленым соусом из кинзы",
+        "weight": 430,
+        "price": 440,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "category": "Соусы",
+    "items": [
+      {
+        "id": 96,
+        "title": "Сацебели",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 97,
+        "title": "Мацони",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 98,
+        "title": "Ткемали",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 99,
+        "title": "Аджика острая",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 100,
+        "title": "Аджика",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 101,
+        "title": "Тар-тар",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 102,
+        "title": "Цезарь",
+        "description": "",
+        "weight": 40,
+        "price": 60,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "category": "Десерты",
+    "items": [
+      {
+        "id": 103,
+        "title": "Наполеон",
+        "description": "",
+        "weight": 150,
+        "price": 295,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 104,
+        "title": "Медовик",
+        "description": "",
+        "weight": 150,
+        "price": 275,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 105,
+        "title": "Мацони с медом и орехом",
+        "description": "",
+        "weight": 150,
+        "price": 275,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 106,
+        "title": "Десерт дня",
+        "description": "Уточните у оператора",
+        "weight": 150,
+        "price": 295,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "category": "Детское меню",
+    "items": [
+      {
+        "id": 107,
+        "title": "Суп куриный с лапшой",
+        "description": "",
+        "weight": 200,
+        "price": 200,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 108,
+        "title": "Люля из курицы с сыром",
+        "description": "",
+        "weight": 100,
+        "price": 240,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 109,
+        "title": "Шашлык куриный",
+        "description": "",
+        "weight": 100,
+        "price": 240,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 110,
+        "title": "Картофель фри",
+        "description": "",
+        "weight": 100,
+        "price": 180,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 111,
+        "title": "Картофельные (шарики) крокеты",
+        "description": "",
+        "weight": 150,
+        "price": 150,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 112,
+        "title": "Мини-хачапури по-аджарски",
+        "description": "",
+        "weight": 190,
+        "price": 205,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 113,
+        "title": "Пицца с колбасой",
+        "description": "Диаметр 26см",
+        "weight": 0,
+        "price": 350,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 114,
+        "title": "Пицца с курицей",
+        "description": "Диаметр 26см",
+        "weight": 0,
+        "price": 350,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 115,
+        "title": "Наггетсы",
+        "description": "Диаметр 26см",
+        "weight": 150,
+        "price": 280,
+        "img_src": "pkhali.jpg"
+      },
+      {
+        "id": 116,
+        "title": "Брусочки из молодой моркови и свежего огурчика",
+        "description": "Диаметр 26см",
+        "weight": 100,
+        "price": 80,
+        "img_src": "pkhali.jpg"
+      }
+    ]
+  }
+]
